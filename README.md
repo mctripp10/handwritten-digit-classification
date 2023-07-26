@@ -8,7 +8,7 @@ Lab 2: Neural Networks
 3/22/2023
 
 
-Program to identify handwritten digits using dense and convolutional neural nets on digit image data.
+Program used to identify handwritten digits using dense and convolutional neural nets on digit image data.
 
 Along with this readme should be two files, one containing the code for creating dense neural networks 
 (dense_networks.py) and the other containing code for creating convolutional neural networks (conv_networks.py). 
