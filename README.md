@@ -1,10 +1,5 @@
 # neural-network-handwritten-digit-classification
 Michael Tripp
-
-CS641: Machine Learning
-
-Lab 2: Neural Networks
-
 3/22/2023
 
 
