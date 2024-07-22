@@ -1,4 +1,4 @@
-# Neural Network Handwritten Digit Classification
+# Handwritten Digit Classification
 
 Program used to identify handwritten digits using dense and convolutional neural nets on digit image data.
 
