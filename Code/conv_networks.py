@@ -39,7 +39,7 @@ def extract_file_data(fname):
 
 ''' Setup '''
 
-filepath = "insert file path here"      # Insert training data file path here
+filepath = "./data"      # Insert training data file path here
 fname = filepath + "optdigits.tra"
 train_images, train_labels = extract_file_data(fname)
 train_labels = keras.utils.to_categorical(train_labels, 10)
