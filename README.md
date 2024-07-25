@@ -3,7 +3,7 @@
 Program used to identify handwritten digits using dense and convolutional neural nets on digit image data.
 
 ![handwritten-digit-img](https://miro.medium.com/v2/resize:fit:720/format:webp/1*SfRJNb5dOOPZYEFY5jDRqA.png)
-###### Image credit: [Medium Article by Koushik](https://medium.com/@koushikkushal95/mnist-hand-written-digit-classification-using-neural-network-from-scratch-54da85712a06)
+###### Image credit: [Koushik](https://medium.com/@koushikkushal95/mnist-hand-written-digit-classification-using-neural-network-from-scratch-54da85712a06)
 
 ## Project Layout
 
