@@ -2,13 +2,10 @@
 
 Program used to identify handwritten digits using dense and convolutional neural nets on digit image data.
 
-Along with this readme are two files, one containing the code for creating dense neural networks 
-(dense_networks.py) and the other containing code for creating convolutional neural networks (conv_networks.py). 
-In the models folder, you can also find all the various models I built, which can be loaded into my programs to 
-use the model on given data. These models are also the models referenced in the discussion document, which has 
-been included to provide analysis of the results in much greater detail.
+![handwritten-digit-img](https://miro.medium.com/v2/resize:fit:720/format:webp/1*SfRJNb5dOOPZYEFY5jDRqA.png)
+###### Image credit: [Koushik](https://medium.com/@koushikkushal95/mnist-hand-written-digit-classification-using-neural-network-from-scratch-54da85712a06)
 
-### Project Layout
+## Project Layout
 
 - `data/`
 	- `optdigits.tes` - testing data
@@ -43,6 +40,23 @@ been included to provide analysis of the results in much greater detail.
    - PARAMETERS/HYPERPARAMETERS: change parameters/hyperparameters as desired
    - SAVE AND TEST MODEL: insert the file path of where you want each model saved, as 
 well as what name you would like your model to be called
+
+## Loading/Saving Models
+
+### Saving
+Currently, the model currently defined in the program will automatically be saved on run according to the path and file name defined in the "Save and Test Model" section. 
+Comment out this code if you do not want it to save.
+```Python
+modelName = "model_name.h5"
+filepath = "./models/model_type/"       # Insert model file path here
+model.save(f"{filepath}{modelName}")
+```
+ ### Loading
+ Currently, the model currently defined in the program will also automatically be loaded and tested according to the path and file name defined in the "Save and Test Model"
+ section. If you wish to load a specific model you have already saved, simply replace the `model_to_load` assignment with your file path:
+ ```Python
+model_to_load = "insert/your/file/path/here"          # File path for desired model to load and test
+```
 
 ## Results
 Over the course of this project, I experimented with many different parameter/hyperparameter combinations 
