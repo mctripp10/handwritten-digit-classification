@@ -8,7 +8,7 @@ In the models folder, you can also find all the various models I built, which ca
 use the model on given data. These models are also the models referenced in the discussion document, which has 
 been included to provide analysis of the results in much greater detail.
 
-### Project Layout
+## Project Layout
 
 - `data/`
 	- `optdigits.tes` - testing data
