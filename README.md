@@ -22,12 +22,12 @@ Program used to identify handwritten digits using dense and convolutional neural
 
 1. Clone the repository:
    ```
-   git clone https://github.com/mctripp10/handwritten-digit-classification.git
+   git clone https://github.com/mctripp10/handwritten-digit-recognition.git
    ```
    
 2. Navigate to project directory
    ```
-   cd ../handwritten-digit-classification
+   cd ../handwritten-digit-recognition
    ```
    
 3. Install libraries
