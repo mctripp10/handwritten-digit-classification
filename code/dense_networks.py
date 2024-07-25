@@ -38,7 +38,7 @@ def extract_file_data(fname):
 
 ''' Setup '''
 
-filepath = "./data"      # Insert training data file path here
+filepath = "./data/"      # Insert training data file path here
 fname = filepath + "optdigits.tra"
 train_images, train_labels = extract_file_data(fname)
 train_labels = keras.utils.to_categorical(train_labels, 10)
@@ -77,10 +77,12 @@ model.fit(train_images, train_labels, validation_split = 0.2,
 
 ''' Save and Test Model '''
 
-modelName = "test_model.h5"
-filepath = "insert file path here"          # Insert model file path here
+modelName = "dense_model_name.h5"
+filepath = "./models/dense/"          # Insert model file path here
 model.save(f"{filepath}{modelName}")
 
-currModel = keras.models.load_model(f"C:/Users/Admin/Documents/College/Spring 2023!!/CS614/lab3/{modelName}")
+model_to_load = f"{filepath}{modelName}"
+
+currModel = keras.models.load_model(model_to_load)
 _, trainAccuracy = currModel.evaluate(train_images, train_labels, verbose=1)
 _, testAccuracy = currModel.evaluate(test_images, test_labels, verbose=1)
