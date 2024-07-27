@@ -27,7 +27,7 @@ Program used to identify handwritten digits using dense and convolutional neural
    
 2. Navigate to project directory
    ```
-   cd ../handwritten-digit-recognition
+   cd handwritten-digit-recognition
    ```
    
 3. Install libraries
